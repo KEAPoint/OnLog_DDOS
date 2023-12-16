@@ -5,9 +5,8 @@
 
 ## 📃 준비 사항
 
-1. AWS 계정을 생성하고, AWS Access Key ID와 Secret Access Key를 준비합니다.
-2. AWS에서 사용할 키 페어를 생성합니다.
-3. Terraform이 설치되어 있어야 합니다.
+1. AWS Access Key와 Secret Access Key를 준비합니다.
+2. Terraform이 설치되어 있어야 합니다.
 
 ## ✅ 사용 방법
 
@@ -15,9 +14,6 @@
 ```bash
 export AWS_ACCESS_KEY_ID="your_access_key"
 export AWS_SECRET_ACCESS_KEY="your_secret_key"
-
-export AWS_ACCESS_KEY_ID="AKIAZFEQRMP3Y762DDNG"
-export AWS_SECRET_ACCESS_KEY="I1n9e72qTh2+rfKKdHLgunXAmFS9lIjSRbo97Hj6"
 ```
 
 2. Terraform을 초기화합니다
